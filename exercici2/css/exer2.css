@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+  
+header {
+    position: relative;
+    /** NOU CSS A SOTA **/
+    height: 300px;
+    background-color: rgb(240, 128, 128);
+}
+  
+header img {
+    position: absolute;
+    /** NOU CSS A SOTA **/
+    height: 110px;
+    left:80px;
+    top:140px;
+    width: 300px;
+}
+  
+ul#menu {
+    position: absolute;
+    /** NOU CSS A SOTA **/
+    top:100px;
+    height: 300px;
+    left:400px;
+}
+  
+ul#menu li {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    /** NOU CSS A SOTA **/
+    display: inline-block;
+    
+    
+   
+}
+  
+main {
+    position: relative;
+    border: 1px solid green;
+    /** NOU CSS A SOTA **/
+}
+  
+main > img#scissors {
+    position: absolute;
+    left: 270px;
+    z-index: -1;
+    height: 200px;
+}
+
+main > .great {
+    position: absolute;
+    color: black;
+    font-size: 2em;
+    /** NOU CSS A SOTA **/
+    top:10px;
+    height: 100px;
+    left:300px;
+    width: 570px;
+}
